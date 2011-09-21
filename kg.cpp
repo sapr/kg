@@ -10,5 +10,6 @@ kg::kg(QWidget *parent) :
 
 kg::~kg()
 {
+    ui->menuBar->acceptDrops();
     delete ui;
 }
