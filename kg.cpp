@@ -5,11 +5,14 @@ kg::kg(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::kg)
 {
-    ui->setupUi(this);
+    QUrl url;
+    url=QUrl("http://html5game.ru/index.php?menu=catalog&id=7");
+    page.load(url);
+    page.show();
+
 }
 
 kg::~kg()
 {
-    ui->menuBar->acceptDrops();
     delete ui;
 }

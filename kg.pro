@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
-
+QT       += webkit
 TARGET = kg
 TEMPLATE = app
 
