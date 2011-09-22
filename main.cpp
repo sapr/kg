@@ -6,6 +6,6 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     kg w;
     w.show();
-    int aa;
+    qqqqq;
     return a.exec();
 }
